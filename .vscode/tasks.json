@@ -1,6 +1,4 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -10,9 +8,9 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "helloworld.cpp",
+                "index.cpp",
                 "-o",
-                "helloworld.out",
+                "index.out",
                 "--debug"
             ],
             "group": {
