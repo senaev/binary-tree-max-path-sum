@@ -10,7 +10,7 @@
                 "-stdlib=libc++",
                 "index.cpp",
                 "-o",
-                "index.out",
+                "a.out",
                 "--debug"
             ],
             "group": {
